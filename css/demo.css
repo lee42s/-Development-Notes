@@ -1,0 +1,64 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	outline: 0;
+	list-style: none;
+}
+html, body, .wrap, .subMenu, .sWrap, .section {
+	height: 100%;
+}
+a {
+	text-decoration: none;
+}
+.subMenu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 150px;
+	background: #444;
+	z-index: 1000;	
+}
+.subMenu li>a {
+	display: block;
+	color: #fff;
+	padding: 5px 10px;
+}
+.subMenu li>a:hover {
+	background: #666;
+}
+.subMenu li>a.active {
+	background: #000;
+}
+.sWrap {
+	position: relative;
+	left: 150px;
+	top: 0;
+}
+.section {
+	position: absolute;
+	width: 100%;
+}
+.sTop {
+	left: 0;
+	background:#fff;
+}
+.s1 {
+	left: 100%;
+	background: #fd7400;
+}
+.s2 {
+	left: 200%;
+	background: #fee119;
+}
+.s3 {
+	left: 300%;
+	background: #bfdb39;
+}
+.s4 {
+	left: 400%;
+	background: #1f8a70;
+}
+.s5 {
+	left: 500%;
+	background: #004258;
+}

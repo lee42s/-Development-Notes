@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>BLACK.BAR</title>
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/reservation.css">
+		<!--[if lt IE 9]> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<div class="wrap header clearfix">
+				<h1 class="logo jbMenu">
+					<a href="../index.html" data-transition="slide" class="logo_a"><img src="../img/logo.png" alt="black.bar logo"></a></h1>
+				<nav class="gnb">
+					<a href="#none" class="btn"><span>menu</span></a>
+					<ul class="linkpage">
+						<li>
+							<a class="fB_20 fCG" href="../index.html#about">ABOUT</a>
+						</li>
+						<li>
+							<a class="fB_20 fCG" href="../index.html#map">MAP</a>
+						</li>
+						<li>
+							<a class="fB_20" href="./menu.html">MENU</a>
+						</li>
+						<li>
+							<a class="fB_20" href="./event.html">EVENT</a>
+						</li>
+						<li>
+							<a class="fB_20 act" href="./reservation.html">RESERVATION</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="link_LJ1">
+					<li class="boderimg"><a class="f13" href="#">Login</a></li>
+					<li><a class="f13" href="#">Join</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="wrap pagewait">
+			<p class="f60">
+				준비중입니다....
+			</p>
+		</div>
+
+		<footer>
+			<div class="wrap clearfix">
+				<h2 class="logo">
+					<img src="../img/logo.png" alt="black.bar logo">
+				</h2>
+				<div class="footerintro clearfix f13">
+					<p class="f15 fC time">BLACK.BAR 18:00 ~ 02:00</p>
+					<address class="fc0">
+					 전라북도 익산시 금마면 고도3길23
+				    </address>
+				    <p class="tel fc0">
+				    	TEL : 054-834-6318~1
+				    </p>
+				    <P class="fax fc0">
+				    	FAX : 054-834-6318
+				    </P>
+				    <p class="copy fc0">
+				    	Copyright &copy; applewine.co.kr All right reserved
+				    </p>
+				</div>
+			</div>		
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="../js/gnb.js"></script>
+	   <script>
+	      $( document ).ready( function() {
+	        var jbOffset = $( '.jbMenu' ).offset();
+	        $( window ).scroll( function() {
+	          if ( $( document ).scrollTop() > jbOffset.top ) {
+	            $( '.jbMenu' ).addClass( 'jbFixed' );
+	          }
+	          else {
+	            $( '.jbMenu' ).removeClass( 'jbFixed' );
+	          }
+	        });
+	      } );
+      </script>
+	</body>
+</html>

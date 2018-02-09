@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://bxslider.com/examples/image-slideshow-captions/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>jQuery Content Slider | Responsive jQuery Slider | bxSlider</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="content slider, responsive image gallery, responsive image gallery, image slider, image fade, image rotator">
+  <meta name="description" content="Respsonsive jQuery content slider.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="https://bxslider.com/assets/images/icon-star.png?v=1">
+  <link href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/css" rel="stylesheet">
+  <link href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/css(1)" rel="stylesheet">
+  <link href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/css(2)" rel="stylesheet">
+  <link rel="stylesheet" href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/github-gist.min.css">
+  <link rel="stylesheet" href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/app.css">
+  <link rel="stylesheet" href="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/jquery.bxslider.css">
+
+  <script type="text/javascript" async="" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/ga.js.다운로드"></script><script src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/jquery.min.js.다운로드"></script>
+  <script src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/jquery.bxslider.min.js.다운로드"></script>
+  <script src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/app.js.다운로드"></script>
+<script id="_carbonads_projs" type="text/javascript" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/C6AILKT.json"></script></head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="https://bxslider.com/">
+          <strong>bx</strong>Slider
+        </a>
+      </div>
+      <nav class="nav">
+        <a href="https://bxslider.com/examples" class="nav__link">Examples</a>
+        <a href="https://bxslider.com/options" class="nav__link">Options</a>
+        <a href="https://github.com/stevenwanderski/bxslider-4" class="nav__link" target="_blank">Github</a>
+        <a href="https://bxslider.com/install" class="nav__link nav__button button">Install</a>
+      </nav>
+    </div>
+  </header>
+  
+<main>
+  <div class="content">
+    
+<h1>Image gallery with captions</h1>
+
+<div class="example__slider">
+  <div class="bx-wrapper" style="max-width: 600px;"><div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 450px;"><div class="bxslider" style="width: auto; position: relative;">
+  <div aria-hidden="true" style="float: none; list-style: none; position: absolute; width: 600px; z-index: 0; display: none;"><img src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/coffee1.jpg" title="Funky roots"><div class="bx-caption"><span>Funky roots</span></div></div>
+  <div aria-hidden="true" style="float: none; list-style: none; position: absolute; width: 600px; z-index: 0; display: none;"><img src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/coffee2.jpg" title="The long and winding road"><div class="bx-caption"><span>The long and winding road</span></div></div>
+  <div aria-hidden="false" style="float: none; list-style: none; position: absolute; width: 600px; z-index: 50;"><img src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/coffee3.jpg" title="Happy trees"><div class="bx-caption"><span>Happy trees</span></div></div>
+</div></div><div class="bx-controls bx-has-controls-direction bx-has-pager"><div class="bx-controls-direction"><a class="bx-prev" href="https://bxslider.com/examples/image-slideshow-captions/">Prev</a><a class="bx-next" href="https://bxslider.com/examples/image-slideshow-captions/">Next</a></div><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="https://bxslider.com/examples/image-slideshow-captions/" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="https://bxslider.com/examples/image-slideshow-captions/" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="https://bxslider.com/examples/image-slideshow-captions/" data-slide-index="2" class="bx-pager-link active">3</a></div></div></div></div>
+
+</div>
+
+<script>
+  $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 600
+  });
+});
+
+</script>
+
+<div class="example__code">
+  <div class="example__code-block">
+    <div class="example__code-header">JS:</div>
+    <pre class="example__code-body"><code class="javascript hljs">$(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  $(<span class="hljs-string">'.bxslider'</span>).bxSlider({
+    <span class="hljs-attr">mode</span>: <span class="hljs-string">'fade'</span>,
+    <span class="hljs-attr">captions</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">slideWidth</span>: <span class="hljs-number">600</span>
+  });
+});
+</code></pre>
+  </div>
+
+  <div class="example__code-block">
+    <div class="example__code-header">HTML:</div>
+    <pre class="example__code-body"><code class="html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bxslider"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/assets/images/coffee1.jpg"</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Funky roots"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/assets/images/coffee2.jpg"</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"The long and winding road"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/assets/images/coffee3.jpg"</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"Happy trees"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+  </div>
+</div>
+
+<h2>Examples</h2>
+<ol>
+  <li><a href="https://bxslider.com/examples/image-slideshow-captions">Image gallery with captions</a></li>
+  <li><a href="https://bxslider.com/examples/auto-show-start-stop-controls">Auto show with start / stop controls</a></li>
+</ol>
+
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar__block">
+      <script async="" type="text/javascript" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/carbon.js.다운로드" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://clk.tradedoubler.com/click?p=264355&amp;a=2947467&amp;g=23278850" class="carbon-img" target="_blank" rel="noopener"><img src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/61450" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://clk.tradedoubler.com/click?p=264355&amp;a=2947467&amp;g=23278850" class="carbon-text" target="_blank" rel="noopener">Students and Teachers, save up to 60% on Adobe Creative Cloud.</a></span><a href="http://carbonads.net/?utm_source=bxslidercom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener">ads via Carbon</a></span></div>
+    </div>
+
+    <div class="sidebar__block sidebar__block--paypal">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="R7JFCJATUQMBG">
+        <input type="image" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/paypal-button.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/pixel.gif" width="1" height="1">
+      </form>
+    </div>
+  </aside>
+</main>
+
+
+  <div class="personal">
+    <div class="personal__inner">
+      <div class="personal__row">
+        Coded with ♥ by
+      </div>
+  
+      <div class="personal__row personal__info">
+        Steven Wanderski <a href="http://stevenwanderski.com/" target="_blank">Chicago Web Developer</a>
+      </div>
+  
+      <div class="personal__row">
+        <iframe allowtransparency="true" scrolling="no" frameborder="0" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/buttons.html" style="width: 113px; height: 28px; border: none;"></iframe>
+      </div>
+  
+      <div class="personal__row">
+        <a href="https://twitter.com/stevenwanderski">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__inner">
+  
+      <div class="footer__columns">
+        <div class="footer__column">
+          <div class="footer__column-row">
+            <a href="http://sliderui.com/">Slider Builder</a>
+          </div>
+          <div class="footer__column-row">
+            <a href="http://css3buttongenerator.com/">CSS Button Generator</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script async="" defer="" src="./jQuery Content Slider _ Responsive jQuery Slider _ bxSlider_files/buttons.js.다운로드"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36499930-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</body></html>

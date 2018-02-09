@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*moblie main*/
+.line_h{
+	line-height: 25px;
+}
+.bx-wrapper {
+  	padding-top: 78px;
+  	width: 100%;
+}
+.bx-has-controls-direction{
+	display: none;
+}
+div.slider_size{
+	width: 100% !important;
+}
+section.about{
+	border-bottom: 1px solid #af8e6e;
+	padding-top: 105px;
+	width: 100%;
+}
+section.map{
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+.mapicon{
+	background: url(../img/mapicon.png) no-repeat 60px center;
+}
+
+.mapicon1{
+	background: url(../img/mapicon1.png)no-repeat left center;
+}
+.telicon{
+	background: url(../img/telicon.png)no-repeat left center;
+}
+.mailicon{
+	background: url(../img/mailicon.png)no-repeat left center;
+}
+/* tablet & desktop main */
+@media all and (min-width: 979px) {
+   .bx-wrapper {
+  		padding-top: 173px;
+	}
+	.bx-has-controls-direction{
+	    display: block;
+    }
+    section.map{
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 79px;
+	}
+
+}

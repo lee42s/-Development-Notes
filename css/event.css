@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*moblie event*/
+.line_h{
+	line-height: 25px;
+}
+.event{
+	padding-top: 130px;
+	margin-bottom: 45px;
+}
+.event2{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.f15{
+	font-size: 15px;
+	color: #794e24;
+}
+.f30{
+	font-size: 30px;
+	background: url(../img/boder1.png) no-repeat left top;
+	padding-top: 10px;
+	margin-bottom: 40px;
+	color: #af8e6e;
+}
+.f18{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #794e24;
+	text-align: left;
+	font-weight:  800;
+}
+.f14{
+	font-size: 14px;
+	color: #4f4f4f;
+	text-align: left;
+}
+/* tablet & desktop menu */
+@media all and (min-width: 979px) {
+  .event{
+		padding-top: 270px;
+		margin-bottom: 79px;
+  }
+  .event1{
+  		float: left;
+  }
+  .event2{
+  	 	float: left;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin: 0px 34px;
+  }
+  .event3{
+  	 	float: left;
+  }
+
+}
